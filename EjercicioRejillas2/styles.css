@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tarjeta{
+    height: 550px;
+    width: 1250px;
+    background-color: rgb(204, 204, 204) ;
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+    align-items: center;
+    content: end;
+    padding: auto;
+    margin: auto;
+}
+
+.info{
+    height: 90%;
+    width: 50%;
+    margin: 2%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    background-color: cadetblue;
+}
+
+.imagen{
+    height: 90%;
+    width: 50%;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen img{
+    width: auto;
+    height: 100%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 25px;
+}
